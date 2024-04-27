@@ -1,7 +1,7 @@
 use std::ops::Add;
 
 pub fn variables_exo() {
-    let x:f64 = 5.2;
+    let x: f64 = 5.2;
 
     {
         let x = x + 1.0;
@@ -24,14 +24,12 @@ pub fn variables_exo() {
 
     let (_x, y, _z) = tup;
 
-    println!("La valeur de y+y est : {}", tup.1+y);
+    println!("La valeur de y+y est : {}", tup.1 + y);
     let word = this_is_a_test(String::from("youyou"));
     println!("{}", word.add("  YOOOOOOOO"));
-
-
 }
 
 pub fn this_is_a_test(mot: String) -> String {
-    let texte: String =  mot.add("TEST JUXXXXX");
+    let texte: String = mot.add("TEST JUXXXXX");
     texte.add("321321321321")
 }
