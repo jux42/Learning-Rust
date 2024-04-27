@@ -10,7 +10,7 @@ use structures::User;
 
 fn main() {
 
-let mut trigger: bool = true;
+let mut trigger: bool = false;
 
 if trigger==true {
     secret_num_finder::find();
